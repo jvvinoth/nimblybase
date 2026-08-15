@@ -1,0 +1,17 @@
+{
+  "name": "nimblybase",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Agent-native backend and deployment control plane for AI-built apps.",
+  "license": "Apache-2.0",
+  "packageManager": "npm@11.3.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "check": "node -e \"console.log('No implementation workspaces yet')\"",
+    "lint": "node -e \"console.log('No implementation workspaces yet')\"",
+    "test": "node -e \"console.log('No implementation workspaces yet')\""
+  }
+}
