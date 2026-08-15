@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NimblyBase Demo | Agent-native backend control plane</title>
+    <meta
+      name="description"
+      content="NimblyBase concept demo for GOAI Agent Infra: an agent-native backend, deployment, domain, and verification control plane."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="NimblyBase home">
+        <span class="brand-mark">N</span>
+        <span>NimblyBase</span>
+      </a>
+      <nav aria-label="Demo sections">
+        <a href="#loop">Agent loop</a>
+        <a href="#services">Services</a>
+        <a href="#evidence">Evidence</a>
+        <a href="#goai">GOAI fit</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">GOAI Agent Infra concept demo</p>
+          <h1>Agent-native backend and deployment control plane.</h1>
+          <p class="lede">
+            NimblyBase lets AI coding agents provision database, auth, storage,
+            edge functions, deployment, domains, logs, and cost controls through
+            MCP and CLI.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#loop">Run concept flow</a>
+            <a class="secondary-action" href="https://github.com/jvvinoth/nimblybase">View repo</a>
+          </div>
+        </div>
+
+        <section class="demo-console" aria-label="NimblyBase concept console">
+          <div class="console-head">
+            <span></span>
+            <span></span>
+            <span></span>
+            <strong>nimblybase:mcp</strong>
+          </div>
+          <label for="idea">App idea</label>
+          <textarea id="idea">Build a small SaaS app with signup, projects, file uploads, AI summary API, edge webhook, and custom domain.</textarea>
+          <button id="simulate" type="button">Generate backend plan</button>
+          <pre id="terminal" aria-live="polite">Waiting for app idea...</pre>
+        </section>
+      </section>
+
+      <section id="loop" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Multi-agent closed loop</p>
+          <h2>Three agents turn an app idea into verified infrastructure.</h2>
+        </div>
+
+        <div class="agent-grid">
+          <article class="agent-card" data-step="1">
+            <span>01</span>
+            <h3>Product Agent</h3>
+            <p>Converts the idea into schema, services, deployment, domain, and cost constraints.</p>
+          </article>
+          <article class="agent-card" data-step="2">
+            <span>02</span>
+            <h3>Infrastructure Agent</h3>
+            <p>Calls NimblyBase MCP tools to provision D1, R2, Workers, Neon, Entri, or compute.</p>
+          </article>
+          <article class="agent-card" data-step="3">
+            <span>03</span>
+            <h3>Verification Agent</h3>
+            <p>Checks logs, API health, DNS, SSL, usage, cost, and security-sensitive operations.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="section split">
+        <div>
+          <p class="eyebrow">Plug-and-play service surface</p>
+          <h2>Use one service or the full stack.</h2>
+          <p>
+            Users can deploy externally on Vercel, Railway, Netlify, AWS, or their
+            own VPS while still using NimblyBase backend services.
+          </p>
+        </div>
+        <div class="service-grid">
+          <div><strong>Database</strong><span>D1 light DB or Neon Postgres</span></div>
+          <div><strong>Auth</strong><span>Signup, login, reset, JWT</span></div>
+          <div><strong>Storage</strong><span>R2 files, images, signed URLs</span></div>
+          <div><strong>Functions</strong><span>Workers APIs, webhooks, cron</span></div>
+          <div><strong>Deploy</strong><span>Edge deploy or external deploy</span></div>
+          <div><strong>Domains</strong><span>Buy/connect with Entri</span></div>
+          <div><strong>AI APIs</strong><span>Managed gateway and spend caps</span></div>
+          <div><strong>Cost</strong><span>Usage, credits, provider margin</span></div>
+        </div>
+      </section>
+
+      <section id="evidence" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Execution evidence</p>
+          <h2>The demo output is a verifiable infrastructure report.</h2>
+        </div>
+        <div class="evidence-panel">
+          <div>
+            <h3>Provisioned resources</h3>
+            <ul>
+              <li>D1 database: <strong>created</strong></li>
+              <li>R2 storage: <strong>bucket ready</strong></li>
+              <li>Edge function: <strong>deployed</strong></li>
+              <li>Domain flow: <strong>ready for Entri</strong></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Verification signals</h3>
+            <ul>
+              <li>API health: <strong>passing</strong></li>
+              <li>Logs: <strong>captured</strong></li>
+              <li>Cost ledger: <strong>updated</strong></li>
+              <li>Rollback plan: <strong>available</strong></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="goai" class="section final">
+        <p class="eyebrow">Why this fits GOAI Agent Infra</p>
+        <h2>NimblyBase is infrastructure for moving AI-built apps from demo to production.</h2>
+        <p>
+          The project focuses on multi-agent task decomposition, MCP tool
+          integration, reusable Skills, runtime verification, execution evidence,
+          audit logs, and cost observability.
+        </p>
+        <a class="primary-action" href="https://github.com/jvvinoth/nimblybase/tree/main/submissions/goai-2026">
+          Open submission materials
+        </a>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

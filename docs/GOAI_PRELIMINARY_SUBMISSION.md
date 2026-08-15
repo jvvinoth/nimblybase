@@ -88,6 +88,16 @@ Optional:
 
 This repository contains the public-facing submission materials and implementation plan.
 
+## Demo URL
+
+Concept demo URL:
+
+```text
+https://jvvinoth.github.io/nimblybase/
+```
+
+The demo is a static concept experience showing the product flow, multi-agent loop, service surface, and verification evidence.
+
 ## Semi-Final MVP Plan
 
 If selected, the semi-final MVP should prove a narrow but complete closed loop:
@@ -108,4 +118,3 @@ Expected demo output:
 - usage events
 - cost ledger entry
 - evidence report
-

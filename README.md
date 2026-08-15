@@ -83,6 +83,7 @@ This repository currently contains the initial submission materials and architec
 
 Current materials:
 
+- [Concept demo site](apps/demo-site)
 - [GOAI preliminary submission notes](docs/GOAI_PRELIMINARY_SUBMISSION.md)
 - [Project overview](docs/PROJECT_OVERVIEW.md)
 - [Architecture](docs/ARCHITECTURE.md)
@@ -90,6 +91,18 @@ Current materials:
 - [Open-source plan](docs/OPEN_SOURCE_PLAN.md)
 - [SRS draft](docs/NimblyBase-SRS.md)
 - [Pitch deck](submissions/goai-2026/NimblyBase-GOAI-Agent-Infra-Pitch.pptx)
+
+## Demo URL
+
+The concept demo is prepared for GitHub Pages.
+
+Expected URL after GitHub Pages deployment:
+
+```text
+https://jvvinoth.github.io/nimblybase/
+```
+
+If GitHub Pages is not enabled yet, open the repository settings and set Pages to use **GitHub Actions**.
 
 ## Planned Monorepo Layout
 
@@ -117,4 +130,3 @@ submissions/
 ## License
 
 Apache-2.0. See [LICENSE](LICENSE).
-

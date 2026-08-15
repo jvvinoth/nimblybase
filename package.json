@@ -11,6 +11,7 @@
   ],
   "scripts": {
     "check": "node -e \"console.log('No implementation workspaces yet')\"",
+    "demo:serve": "npx --yes http-server apps/demo-site -p 4173",
     "lint": "node -e \"console.log('No implementation workspaces yet')\"",
     "test": "node -e \"console.log('No implementation workspaces yet')\""
   }
